@@ -1,0 +1,142 @@
+body{
+    /* background-color: linear-gradient(85deg, rgb(107, 107, 203) , rgb(78, 78, 201)); */
+    /* background-color: aqua; */
+    background-image: linear-gradient(90deg ,rgb(88, 54, 54), rgb(0, 26, 255));
+    
+}
+
+.nav {
+    overflow: hidden;
+  }
+  
+  
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    color: rgb(239, 99, 23)
+    
+}
+
+
+.search-box{
+    float: right;
+    margin-top: -35px;
+    margin-right: 70px;
+}
+
+button[type="submit"] {
+    padding: 11px 19px;
+    font-size: 16px;
+    background-color: rgb(30, 179, 224);
+    color: white;
+    border: none;
+    margin-left: auto;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    border-left: none;
+    margin-left: -5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+.login{
+    float: right;
+    border: 2px solid black;
+    box-shadow: 0 o 40px rgba(8, 7, 16, 1);
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-top: -300px;
+    padding: 50px;
+}
+
+.login label{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.login h1{
+    margin-top: 15px;
+    color: chocolate;
+    box-shadow: 0 o 40px rgba(8, 7, 16, 1);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.login input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    padding: 4px;
+    color: white;
+    box-shadow: 0 o 40px rgba(8, 7, 16, 1);
+    position: absolute;
+}
+
+.login button{
+    cursor: pointer;
+    text-align: center;
+    color: rgb(19, 19, 135);
+    background-color: rgb(210, 102, 24);
+    border-radius: 6px;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px 95px;
+}
+
+
+
+.sup{
+    text-align: center;
+}
+
+.sup a{
+    color: chocolate;
+    text-decoration: none;
+}
+
+.sup p{
+    color: azure;
+}
+
+.the-main-part{
+    margin-top: 100px;
+}
+.the-main-part h1{
+    color: azure;
+}
+
+.the-main-part p{
+    color:antiquewhite;
+}
+
+.the-main-part button{
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+    background-color: chocolate;
+    font-size: larger;
+    padding: 6px 60px;
+    cursor: pointer;
+}
